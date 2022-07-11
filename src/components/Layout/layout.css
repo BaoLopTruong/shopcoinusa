@@ -1,0 +1,18 @@
+.layout div{
+    padding-bottom: 5px;
+}
+.main{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.license{
+   position: relative;
+    margin-left:  50px;
+    font-size: 14px;
+}
+
+strong{
+    color: rgb(177, 176, 176)
+}

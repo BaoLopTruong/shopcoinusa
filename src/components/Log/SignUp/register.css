@@ -1,0 +1,52 @@
+.register {
+    position: relative;
+    width: 400px;
+    height: auto;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 460px;
+
+
+}
+
+p{
+    font-size: 12px;
+}
+
+.col-md-2 {
+    margin: 0px;
+    padding: 0px;
+}
+.col-sm-4 {
+    margin: 0px;
+    padding: 0px;
+}
+.form-btn-submit{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn-success{
+    background-color: #F59E0B;
+    border: 0px;
+    opacity: 0.5;
+    width: 240px;
+    margin-right: 20px;
+}
+.btn-success:hover{
+    background-color: #F59E0B;
+    border: 0px;
+    opacity: 1;
+}
+
+.form-forgot-password{
+    text-align: center;
+    margin-top: 20px;
+}
+.have-account{
+    text-align: center;
+    margin-left: 10px;
+}

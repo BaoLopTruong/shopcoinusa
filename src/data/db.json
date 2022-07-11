@@ -1,0 +1,624 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "bao",
+      "email": "ngocbaole1999@gmail.com",
+      "password": "letmein"
+    },
+    {
+      "id": 2,
+      "username": "bao2",
+      "email": "bao2@gmail.com",
+      "password": "letmein"
+    },
+    {
+      "id": 3,
+      "username": "bao3",
+      "email": "bao3@gmail.com",
+      "password": "letmein"
+    }
+  ],
+  "deposits": [
+    {
+      "code": "D7BFnpLDeh",
+      "amountusd": "1",
+      "amountvnd": "24.000 ₫",
+      "method": "ACB - TRAN VAN DIEU - 16744317",
+      "creatAtd": "11-07-2022, 14:06:41",
+      "id": 1
+    },
+    {
+      "code": "EzMjPcgAFL",
+      "amountusd": "1",
+      "amountvnd": "24.000 ₫",
+      "method": "ACB - TRAN VAN DIEU - 16744317",
+      "creatAtd": "11-07-2022, 14:21:46",
+      "id": 2
+    },
+    {
+      "code": "rCzux3SeVD",
+      "amountusd": "1",
+      "amountvnd": "24.000 ₫",
+      "method": "ACB - TRAN VAN DIEU - 16744317",
+      "creatAtd": "11-07-2022, 14:25:37",
+      "id": 3
+    },
+    {
+      "code": "S6IXbp1ylW",
+      "amountusd": "1",
+      "amountvnd": "24.000 ₫",
+      "method": "ACB - TRAN VAN DIEU - 16744317",
+      "creatAtd": "11-07-2022, 14:30:31",
+      "id": 4
+    },
+    {
+      "code": "IsMiDvLOtq",
+      "amountusd": "1",
+      "amountvnd": "24.000 ₫",
+      "method": "ACB - TRAN VAN DIEU - 16744317",
+      "creatAtd": "11-07-2022, 14:34:35",
+      "id": 5
+    },
+    {
+      "code": "KX5ic11Odq",
+      "amountusd": "4",
+      "amountvnd": "96.000 ₫",
+      "method": "ACB - TRAN VAN DIEU - 16744317",
+      "creatAtd": "11-07-2022, 14:34:44",
+      "id": 6
+    },
+    {
+      "code": "p06tBRz7YE",
+      "amountusd": "11",
+      "amountvnd": "264.000 ₫",
+      "method": "ACB - TRAN VAN DIEU - 16744317",
+      "creatAtd": "11-07-2022, 14:37:07",
+      "id": 7
+    },
+    {
+      "code": "SKk8BF8qOu",
+      "amountusd": "1",
+      "amountvnd": "24.000 ₫",
+      "method": "ACB - TRAN VAN DIEU - 16744317",
+      "creatAtd": "11-07-2022, 14:47:19",
+      "id": 8
+    },
+    {
+      "code": "wiAh4iBRrU",
+      "amountusd": "3",
+      "amountvnd": "72.000 ₫",
+      "method": "ACB - TRAN VAN DIEU - 16744317",
+      "creatAtd": "11-07-2022, 14:48:00",
+      "id": 9
+    },
+    {
+      "code": "IfgUNrO93R",
+      "amountusd": "3",
+      "amountvnd": "72.000 ₫",
+      "method": "ACB - TRAN VAN DIEU - 16744317",
+      "creatAtd": "11-07-2022, 14:48:26",
+      "id": 10
+    }
+  ],
+  "coins": [
+    {
+      "id": 1,
+      "name": "bitcoin",
+      "nickname": "BTC",
+      "img": "https://cdn.shopcoinusa.com/uploads/image/1638587152395-273506064-bitcoin-btc-logo.png",
+      "hight": 22579.9,
+      "low": 20365.6
+    },
+    {
+      "id": 2,
+      "name": "bitcoin",
+      "nickname": "BTC",
+      "img": "https://cdn.shopcoinusa.com/uploads/image/1638587152395-273506064-bitcoin-btc-logo.png",
+      "hight": 22579.9,
+      "low": 20365.6
+    }
+  ],
+  "images": [
+    {
+      "id": "bitcoin",
+      "name": "bitcoin",
+      "url": "https://assets.coincap.io/assets/icons/btc@2x.png"
+    },
+    {
+      "id": "ethereum",
+      "name": "ethereum",
+      "url": "https://assets.coincap.io/assets/icons/eth@2x.png"
+    },
+    {
+      "id": "tether",
+      "name": "tether",
+      "url": "https://assets.coincap.io/assets/icons/usdt@2x.png"
+    },
+    {
+      "id": "usd-coin",
+      "name": "usd-coin",
+      "url": "https://assets.coincap.io/assets/icons/usdc@2x.png"
+    },
+    {
+      "id": "binance-coin",
+      "name": "binance-coin",
+      "url": "https://assets.coincap.io/assets/icons/bnb@2x.png"
+    },
+    {
+      "id": "binance-usd",
+      "name": "binance-usd",
+      "url": "https://assets.coincap.io/assets/icons/busd@2x.png"
+    },
+    {
+      "id": "cardano",
+      "name": "cardano",
+      "url": "https://assets.coincap.io/assets/icons/ada@2x.png"
+    },
+    {
+      "id": "xrp",
+      "name": "xrp",
+      "url": "https://assets.coincap.io/assets/icons/xrp@2x.png"
+    },
+    {
+      "id": "solana",
+      "name": "solana",
+      "url": "https://assets.coincap.io/assets/icons/sol@2x.png"
+    },
+    {
+      "id": "dogecoin",
+      "name": "dogecoin",
+      "url": "https://assets.coincap.io/assets/icons/doge@2x.png"
+    },
+    {
+      "id": "polkadot",
+      "name": "polkadot",
+      "url": "https://assets.coincap.io/assets/icons/dot@2x.png"
+    },
+    {
+      "id": "terra-luna",
+      "name": "terra-luna",
+      "url": "https://assets.coincap.io/assets/icons/luna@2x.png"
+    },
+    {
+      "id": "multi-collateral-dai",
+      "name": "multi-collateral-dai",
+      "url": "https://assets.coincap.io/assets/icons/dai@2x.png"
+    },
+    {
+      "id": "tron",
+      "name": "tron",
+      "url": "https://assets.coincap.io/assets/icons/trx@2x.png"
+    },
+    {
+      "id": "shiba-inu",
+      "name": "shiba-inu",
+      "url": "https://assets.coincap.io/assets/icons/shib@2x.png"
+    },
+    {
+      "id": "avalanche",
+      "name": "avalanche",
+      "url": "https://assets.coincap.io/assets/icons/avax@2x.png"
+    },
+    {
+      "id": "wrapped-bitcoin",
+      "name": "wrapped-bitcoin",
+      "url": "https://assets.coincap.io/assets/icons/wbtc@2x.png"
+    },
+    {
+      "id": "unus-sed-leo",
+      "name": "unus-sed-leo",
+      "url": "https://assets.coincap.io/assets/icons/leo@2x.png"
+    },
+    {
+      "id": "polygon",
+      "name": "polygon",
+      "url": "https://assets.coincap.io/assets/icons/matic@2x.png"
+    },
+    {
+      "id": "uniswap",
+      "name": "uniswap",
+      "url": "https://assets.coincap.io/assets/icons/uni@2x.png"
+    },
+    {
+      "id": "ftx-token",
+      "name": "ftx-token",
+      "url": "https://assets.coincap.io/assets/icons/ftx-token@2x.png"
+    },
+    {
+      "id": "litecoin",
+      "name": "litecoin",
+      "url": "https://assets.coincap.io/assets/icons/ltc@2x.png"
+    },
+    {
+      "id": "crypto-com-coin",
+      "name": "crypto-com-coin",
+      "url": "https://assets.coincap.io/assets/icons/cro@2x.png"
+    },
+    {
+      "id": "chainlink",
+      "name": "chainlink",
+      "url": "https://assets.coincap.io/assets/icons/link@2x.png"
+    },
+    {
+      "id": "stellar",
+      "name": "stellar",
+      "url": "https://assets.coincap.io/assets/icons/xlm@2x.png"
+    },
+    {
+      "id": "near-protocol",
+      "name": "near-protocol",
+      "url": "https://assets.coincap.io/assets/icons/near@2x.png"
+    },
+    {
+      "id": "cosmos",
+      "name": "cosmos",
+      "url": "https://assets.coincap.io/assets/icons/atom@2x.png"
+    },
+    {
+      "id": "monero",
+      "name": "monero",
+      "url": "https://assets.coincap.io/assets/icons/xmr@2x.png"
+    },
+    {
+      "id": "bitcoin-bep2",
+      "name": "bitcoin-bep2",
+      "url": "https://assets.coincap.io/assets/icons/btcb@2x.png"
+    },
+    {
+      "id": "algorand",
+      "name": "algorand",
+      "url": "https://assets.coincap.io/assets/icons/algo@2x.png"
+    },
+    {
+      "id": "ethereum-classic",
+      "name": "ethereum-classic",
+      "url": "https://assets.coincap.io/assets/icons/etc@2x.png"
+    },
+    {
+      "id": "bitcoin-cash",
+      "name": "bitcoin-cash",
+      "url": "https://assets.coincap.io/assets/icons/bch@2x.png"
+    },
+    {
+      "id": "vechain",
+      "name": "vechain",
+      "url": "https://assets.coincap.io/assets/icons/vet@2x.png"
+    },
+    {
+      "id": "flow",
+      "name": "flow",
+      "url": "https://assets.coincap.io/assets/icons/flow@2x.png"
+    },
+    {
+      "id": "decentraland",
+      "name": "decentraland",
+      "url": "https://assets.coincap.io/assets/icons/mana@2x.png"
+    },
+    {
+      "id": "internet-computer",
+      "name": "internet-computer",
+      "url": "https://assets.coincap.io/assets/icons/icp@2x.png"
+    },
+    {
+      "id": "the-sandbox",
+      "name": "the-sandbox",
+      "url": "https://assets.coincap.io/assets/icons/sand@2x.png"
+    },
+    {
+      "id": "tezos",
+      "name": "tezos",
+      "url": "https://assets.coincap.io/assets/icons/xtz@2x.png"
+    },
+    {
+      "id": "frax",
+      "name": "frax",
+      "url": "https://assets.coincap.io/assets/icons/frax@2x.png"
+    },
+    {
+      "id": "filecoin",
+      "name": "filecoin",
+      "url": "https://assets.coincap.io/assets/icons/fil@2x.png"
+    },
+    {
+      "id": "elrond-egld",
+      "name": "elrond-egld",
+      "url": "https://assets.coincap.io/assets/icons/egld@2x.png"
+    },
+    {
+      "id": "theta",
+      "name": "theta",
+      "url": "https://assets.coincap.io/assets/icons/theta@2x.png"
+    },
+    {
+      "id": "axie-infinity",
+      "name": "axie-infinity",
+      "url": "https://assets.coincap.io/assets/icons/axs@2x.png"
+    },
+    {
+      "id": "trueusd",
+      "name": "trueusd",
+      "url": "https://assets.coincap.io/assets/icons/tusd@2x.png"
+    },
+    {
+      "id": "helium",
+      "name": "helium",
+      "url": "https://assets.coincap.io/assets/icons/hnt@2x.png"
+    },
+    {
+      "id": "bitcoin-sv",
+      "name": "bitcoin-sv",
+      "url": "https://assets.coincap.io/assets/icons/bsv@2x.png"
+    },
+    {
+      "id": "aave",
+      "name": "aave",
+      "url": "https://assets.coincap.io/assets/icons/aave@2x.png"
+    },
+    {
+      "id": "eos",
+      "name": "eos",
+      "url": "https://assets.coincap.io/assets/icons/eos@2x.png"
+    },
+    {
+      "id": "hedera-hashgraph",
+      "name": "hedera-hashgraph",
+      "url": "https://assets.coincap.io/assets/icons/hbar@2x.png"
+    },
+    {
+      "id": "maker",
+      "name": "maker",
+      "url": "https://assets.coincap.io/assets/icons/mkr@2x.png"
+    },
+    {
+      "id": "kucoin-token",
+      "name": "kucoin-token",
+      "url": "https://assets.coincap.io/assets/icons/kcs@2x.png"
+    },
+    {
+      "id": "paxos-standard",
+      "name": "paxos-standard",
+      "url": "https://assets.coincap.io/assets/icons/usdp@2x.png"
+    },
+    {
+      "id": "zcash",
+      "name": "zcash",
+      "url": "https://assets.coincap.io/assets/icons/zec@2x.png"
+    },
+    {
+      "id": "quant",
+      "name": "quant",
+      "url": "https://assets.coincap.io/assets/icons/qnt@2x.png"
+    },
+    {
+      "id": "iota",
+      "name": "iota",
+      "url": "https://assets.coincap.io/assets/icons/miota@2x.png"
+    },
+    {
+      "id": "ecash",
+      "name": "ecash",
+      "url": "https://assets.coincap.io/assets/icons/xec@2x.png"
+    },
+    {
+      "id": "thorchain",
+      "name": "thorchain",
+      "url": "https://assets.coincap.io/assets/icons/rune@2x.png"
+    },
+    {
+      "id": "okb",
+      "name": "okb",
+      "url": "https://assets.coincap.io/assets/icons/okb@2x.png"
+    },
+    {
+      "id": "fantom",
+      "name": "fantom",
+      "url": "https://assets.coincap.io/assets/icons/ftm@2x.png"
+    },
+    {
+      "id": "klaytn",
+      "name": "klaytn",
+      "url": "https://assets.coincap.io/assets/icons/klay@2x.png"
+    },
+    {
+      "id": "the-graph",
+      "name": "the-graph",
+      "url": "https://assets.coincap.io/assets/icons/grt@2x.png"
+    },
+    {
+      "id": "huobi-token",
+      "name": "huobi-token",
+      "url": "https://assets.coincap.io/assets/icons/ht@2x.png"
+    },
+    {
+      "id": "neo",
+      "name": "neo",
+      "url": "https://assets.coincap.io/assets/icons/neo@2x.png"
+    },
+    {
+      "id": "basic-attention-token",
+      "name": "basic-attention-token",
+      "url": "https://assets.coincap.io/assets/icons/bat@2x.png"
+    },
+    {
+      "id": "chiliz",
+      "name": "chiliz",
+      "url": "https://assets.coincap.io/assets/icons/chz@2x.png"
+    },
+    {
+      "id": "waves",
+      "name": "waves",
+      "url": "https://assets.coincap.io/assets/icons/waves@2x.png"
+    },
+    {
+      "id": "pax-gold",
+      "name": "pax-gold",
+      "url": "https://assets.coincap.io/assets/icons/paxg@2x.png"
+    },
+    {
+      "id": "curve-dao-token",
+      "name": "curve-dao-token",
+      "url": "https://assets.coincap.io/assets/icons/crv@2x.png"
+    },
+    {
+      "id": "stacks",
+      "name": "stacks",
+      "url": "https://assets.coincap.io/assets/icons/stx@2x.png"
+    },
+    {
+      "id": "loopring",
+      "name": "loopring",
+      "url": "https://assets.coincap.io/assets/icons/lrc@2x.png"
+    },
+    {
+      "id": "defichain",
+      "name": "defichain",
+      "url": "https://assets.coincap.io/assets/icons/dfi@2x.png"
+    },
+    {
+      "id": "zilliqa",
+      "name": "zilliqa",
+      "url": "https://assets.coincap.io/assets/icons/zil@2x.png"
+    },
+    {
+      "id": "dash",
+      "name": "dash",
+      "url": "https://assets.coincap.io/assets/icons/dash@2x.png"
+    },
+    {
+      "id": "enjin-coin",
+      "name": "enjin-coin",
+      "url": "https://assets.coincap.io/assets/icons/enj@2x.png"
+    },
+    {
+      "id": "terrausd",
+      "name": "terrausd",
+      "url": "https://assets.coincap.io/assets/icons/ust@2x.png"
+    },
+    {
+      "id": "pancakeswap",
+      "name": "pancakeswap",
+      "url": "https://assets.coincap.io/assets/icons/cake@2x.png"
+    },
+    {
+      "id": "kusama",
+      "name": "kusama",
+      "url": "https://assets.coincap.io/assets/icons/ksm@2x.png"
+    },
+    {
+      "id": "celo",
+      "name": "celo",
+      "url": "https://assets.coincap.io/assets/icons/celo@2x.png"
+    },
+    {
+      "id": "kava",
+      "name": "kava",
+      "url": "https://assets.coincap.io/assets/icons/kava@2x.png"
+    },
+    {
+      "id": "fei-protocol",
+      "name": "fei-protocol",
+      "url": "https://assets.coincap.io/assets/icons/fei@2x.png"
+    },
+    {
+      "id": "mina",
+      "name": "mina",
+      "url": "https://assets.coincap.io/assets/icons/mina@2x.png"
+    },
+    {
+      "id": "convex-finance",
+      "name": "convex-finance",
+      "url": "https://assets.coincap.io/assets/icons/cvx@2x.png"
+    },
+    {
+      "id": "arweave",
+      "name": "arweave",
+      "url": "https://assets.coincap.io/assets/icons/ar@2x.png"
+    },
+    {
+      "id": "amp",
+      "name": "amp",
+      "url": "https://assets.coincap.io/assets/icons/amp@2x.png"
+    },
+    {
+      "id": "gala",
+      "name": "gala",
+      "url": "https://assets.coincap.io/assets/icons/gala@2x.png"
+    },
+    {
+      "id": "1inch",
+      "name": "1inch",
+      "url": "https://assets.coincap.io/assets/icons/1inch@2x.png"
+    },
+    {
+      "id": "nem",
+      "name": "nem",
+      "url": "https://assets.coincap.io/assets/icons/xem@2x.png"
+    },
+    {
+      "id": "holo",
+      "name": "holo",
+      "url": "https://assets.coincap.io/assets/icons/hot@2x.png"
+    },
+    {
+      "id": "compound",
+      "name": "compound",
+      "url": "https://assets.coincap.io/assets/icons/comp@2x.png"
+    },
+    {
+      "id": "nexo",
+      "name": "nexo",
+      "url": "https://assets.coincap.io/assets/icons/nexo@2x.png"
+    },
+    {
+      "id": "counos-x",
+      "name": "counos-x",
+      "url": "https://assets.coincap.io/assets/icons/ccxx@2x.png"
+    },
+    {
+      "id": "decred",
+      "name": "decred",
+      "url": "https://assets.coincap.io/assets/icons/dcr@2x.png"
+    },
+    {
+      "id": "xinfin-network",
+      "name": "xinfin-network",
+      "url": "https://assets.coincap.io/assets/icons/xdc@2x.png"
+    },
+    {
+      "id": "wemix",
+      "name": "wemix",
+      "url": "https://assets.coincap.io/assets/icons/wemix@2x.png"
+    },
+    {
+      "id": "qtum",
+      "name": "qtum",
+      "url": "https://assets.coincap.io/assets/icons/qtum@2x.png"
+    },
+    {
+      "id": "gnosis-gno",
+      "name": "gnosis-gno",
+      "url": "https://assets.coincap.io/assets/icons/gno@2x.png"
+    },
+    {
+      "id": "gatetoken",
+      "name": "gatetoken",
+      "url": "https://assets.coincap.io/assets/icons/gt@2x.png"
+    },
+    {
+      "id": "kadena",
+      "name": "kadena",
+      "url": "https://assets.coincap.io/assets/icons/kda@2x.png"
+    },
+    {
+      "id": "storj",
+      "name": "storj",
+      "url": "https://assets.coincap.io/assets/icons/storj@2x.png"
+    },
+    {
+      "id": "iotex",
+      "name": "iotex",
+      "url": "https://assets.coincap.io/assets/icons/iotx@2x.png"
+    }
+  ]
+}

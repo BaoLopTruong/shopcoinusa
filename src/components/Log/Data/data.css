@@ -1,0 +1,26 @@
+.data-coin{
+    background-color: white;
+  position: relative;
+    left: 0;
+}
+
+
+.col-md-10{
+    font-size: 12px;
+}
+
+.img-logo-coin{
+    width: 30px;
+    height: 30px;
+}
+
+.btn-buy{
+    border: 0px;
+   color: orange;
+
+}
+
+.btn-buy:hover {
+    color: black
+
+}
