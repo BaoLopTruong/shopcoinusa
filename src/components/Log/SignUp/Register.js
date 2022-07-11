@@ -1,9 +1,13 @@
 import './register.css'
 import { useState } from 'react';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+import { useDispatch } from 'react-redux';
+import { createUser } from '../../../redux/action';
 
 export default function Register() {
     const [passwordShown, setPasswordShown] = useState(false);
+    const [newUser, setNewUser] = useState({});
+    const dispatch = useDispatch();
 
     // Password toggle handler
     const togglePassword = () => {
@@ -14,6 +18,17 @@ export default function Register() {
     const handleMouseDownPassword = (event) => {
         event.preventDefault();
     };
+
+    const handleChange = (e) => {
+        setNewUser({
+            ...newUser,
+            [e.target.name]: e.target.value
+        })
+    }
+
+    const handleSubmit = () => {
+        dispatch(createUser(newUser));
+    }
 
 
     return (
@@ -37,7 +52,8 @@ export default function Register() {
                             <div className='col-md-2'>
                             </div>
                             <div className='col-md-8'>
-                                <input type='text' className='form-control'></input>
+                                {/* <input type='text' className='form-control' name='username' onChange={handleChange}></input> */}
+                                <input type='text' className='form-control' name='username' onChange={handleChange}></input>
                             </div>
                         </div>
                         <div className='col-md-2'>
@@ -57,7 +73,8 @@ export default function Register() {
                             <div className='col-md-2'>
                             </div>
                             <div className='col-md-8'>
-                                <input type='email' className='form-control'></input>
+                                {/* <input type='email' className='form-control' name='email' onChange={handleChange}></input> */}
+                                <input type='email' className='form-control' name='email' onChange={handleChange}></input>
                             </div>
                         </div>
                         <div className='col-md-2'>
@@ -77,7 +94,10 @@ export default function Register() {
                             <div className='col-md-2'>
                             </div>
                             <div className='col-md-8'>
-                                <input className='form-control input-password' type={passwordShown ? "text" : "password"} />
+                                {/* <input className='form-control input-password' type={passwordShown ? "text" : "password"}
+                                    name='password' onChange={handleChange} > </input> */}
+                                    <input className='form-control input-password' type={passwordShown ? "text" : "password"}
+                                    name='password' onChange={handleChange} ></input>
                             </div>
                             <div className='col-md-2'>
                                 <button className="btn btn-outline-primary" type='button' onClick={togglePassword} onMouseDown={handleMouseDownPassword}>
@@ -88,9 +108,10 @@ export default function Register() {
                     </div>
 
                     <div className='form-btn-submit'>
-                        <button type='button' className='btn btn-success'>Register</button>
+                        <Link to={'/login/data'}>
+                            <button type='button' className='btn btn-success' onClick={handleSubmit}>Register</button>
+                        </Link>
                     </div>
-
                     <div className='form-forgot-password'>
                         <p>By registering I confirm I have read and agree to Terms of Use.
                             We send occasional marketing messages which can be switched off in account settings.

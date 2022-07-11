@@ -17,6 +17,15 @@
       "username": "bao3",
       "email": "bao3@gmail.com",
       "password": "letmein"
+    },
+    {
+      "id": 4
+    },
+    {
+      "username": "bao3",
+      "password": "bao3",
+      "email": "bao3@gmail.com",
+      "id": 5
     }
   ],
   "deposits": [

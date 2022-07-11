@@ -2,6 +2,7 @@ import axios from "axios";
 
 export const LOGIN = "LOGIN";
 export const LOGIN_SUCCESS = "LOGIN_SUCCESS";
+export const CREATE_USER_SUCCESS = "CREATE_USER_SUCCESS";
 export const FETCH_DATACOIN_SUCCESS = "FETCH_DATACOIN_SUCCESS";
 export const FETCH_DETAIL_DATACOIN_SUCCESS = "FETCH_DETAIL_DATACOIN_SUCCESS";
 export const FETCH_IMAGECOIN_SUCCESS = "FETCH_IMAGECOIN_SUCCESS";
@@ -42,6 +43,19 @@ export const CheckLogin = payload => {
     // } else {
     //   alert("login failure!");
     // }
+  };
+};
+
+
+export const createUser = (user) => {
+  return async dispatch => {
+    const response = await axios.post(
+      `http://localhost:3001/users`, user
+    );
+    dispatch({
+      type: CREATE_USER_SUCCESS,
+      payload: response.data.data
+    });
   };
 };
 
