@@ -19,16 +19,29 @@ export const FETCH_DEPOSIT_CREATE_SUCCESS = "FETCH_DEPOSIT_DETAIL_SUCCESS";
 export const CheckLogin = payload => {
   return async dispatch => {
     const { username, password } = payload;
-    if (username === "admin" && password === "letmein") {
-      dispatch({
-        type: LOGIN_SUCCESS,
-        payload
-      });
-      dispatch(getDataCoin());
-      dispatch(getImageCoin());
-    } else {
-      alert("login failure!");
-    }
+    const listusers = await axios.get(`http://localhost:3001/users`);
+    listusers.data.map(user =>{
+      if(username === user.email  && password === user.password){
+        dispatch({
+          type: LOGIN_SUCCESS,
+          payload
+        });
+        dispatch(getDataCoin());
+        dispatch(getImageCoin());
+      }
+    })
+    
+    
+    // if (username === "admin" && password === "letmein") {
+    //   dispatch({
+    //     type: LOGIN_SUCCESS,
+    //     payload
+    //   });
+    //   dispatch(getDataCoin());
+    //   dispatch(getImageCoin());
+    // } else {
+    //   alert("login failure!");
+    // }
   };
 };
 
