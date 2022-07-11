@@ -3,7 +3,7 @@ import './layoutlog.css'
 import Footer from "./Footer/Footer";
 import Header from "./Header/Header";
 import Login from "../Login";
-import Register from "../SignUp/Register";
+// import Register from "../SignUp/Register";
 import DataPage from '../Data/Data';
 import BuyCoin from '../Data/BuyCoin/BuyCoin';
 import CreateDeposit from '../Data/CreateDeposit/Create';
@@ -36,7 +36,7 @@ export default function LayoutLog() {
                     {/* <div className='col-w-100'> */}
                         <Routes>
                             <Route path="/" element={<Login />}></Route>
-                            <Route path="/sign-up" element={<Register />}></Route>
+                            {/* <Route path="/sign-up" element={<Register />}></Route> */}
                             <Route path="/data" element={<DataPage/>}></Route>
                             <Route path={`/data/:coinId`} element={<BuyCoin/>}></Route>
                             <Route path='/profile/deposit' element={<Deposit/>}></Route>

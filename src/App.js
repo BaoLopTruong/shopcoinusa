@@ -7,6 +7,7 @@ import Blog from './components/Home/Blog/Blog';
 import AboutUs from './components/Home/AboutUs/AboutUs';
 import Deposit from './components/Home/Deposit/Deposit';
 import ContactUs from './components/Home/ContactUs/ContactUs';
+import Register from './components/Log/SignUp/Register';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path='/about-us' element={<AboutUs/>}></Route>
           <Route path='/deposit' element={<Deposit/>}></Route>
           <Route path='/contact-us' element={<ContactUs/>}></Route>
+          <Route path='/sign-up' element={<Register/>}></Route>
         </Routes>
       </Layout>
     </div>
