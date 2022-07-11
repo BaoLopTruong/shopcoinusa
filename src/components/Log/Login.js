@@ -99,7 +99,7 @@ export default function Login() {
                 </form>
             </div>
             <div className='sign-up'>
-                Do not have an account ? <Link  to={'/login/sign-up'}> <a href="#a">Register</a></Link>
+                Do not have an account ? <Link  to={'/sign-up'}> <a href="#a">Register</a></Link>
                 <div className='row'>
                     <div className='col-sm-4'></div>
                     <div className='col-sm-4'>
