@@ -1,9 +1,23 @@
 import './navbar.css'
 
 import { Link } from 'react-router-dom'
+import { useSelector } from "react-redux";
+import { useEffect, useState } from "react";
 
 export default function NavbarPage() {
 
+    const userlogined = useSelector(state => state.userlogined);
+    const [isLogined, setIsLogined] = useState(false);
+
+    useEffect(() => {
+        if (userlogined.username) {
+            setIsLogined(!isLogined)
+        }
+    }, []);
+
+    const handleLogout = () => {
+        window.location.href =('/')
+    }
     return (
 
         <nav className="navbar navbar-expand-lg bg-white">
@@ -48,9 +62,20 @@ export default function NavbarPage() {
                             </Link>
                         </li>
                         <li style={{ marginLeft: "400px" }} className="nav-item">
+                            {isLogined === false ?
+                                <Link to={'/login'}>
+                                    <button type='button' className='nav-button'>LOG IN</button>
+                                </Link>
+                                : <div>
+                                    <span className='sp-username'>{userlogined.username}</span>
+                                    <button className='btn-logout' onClick={handleLogout}>Logout</button>
+                                </div>
+
+                            }
+                            {/* <span className='sp-username'>{userlogined.username}</span>
                             <Link to={'/login'}>
                                 <button type='button' className='nav-button'>LOG IN</button>
-                            </Link>
+                            </Link> */}
                         </li>
                     </ul>
                 </div>
