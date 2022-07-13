@@ -12,15 +12,10 @@ export const FETCH_DEPOSIT_DETAIL_SUCCESS = "FETCH_DEPOSIT_DETAIL_SUCCESS";
 export const FETCH_DEPOSIT_CREATE_SUCCESS = "FETCH_DEPOSIT_DETAIL_SUCCESS";
 
 
-
-
-
-
-
 export const CheckLogin = payload => {
   return async dispatch => {
     const { username, password } = payload;
-    const listusers = await axios.get(`http://localhost:3001/users`);
+    const listusers = await axios.get(`https://json-server-api-shopcoinusa.herokuapp.com/users`);
     listusers.data.map(user =>{
       if(username === user.email  && password === user.password){
         dispatch({
@@ -50,7 +45,7 @@ export const CheckLogin = payload => {
 export const createUser = (user) => {
   return async dispatch => {
     const response = await axios.post(
-      `http://localhost:3001/users`, user
+      `https://json-server-api-shopcoinusa.herokuapp.com/users`, user
     );
     dispatch({
       type: CREATE_USER_SUCCESS,
@@ -74,7 +69,7 @@ export const getDataCoin = () => {
 export const getImageCoin = () => {
   return async dispatch => {
     const response = await axios.get(
-      "http://localhost:3001/images"
+      "https://json-server-api-shopcoinusa.herokuapp.com/images"
     );
     dispatch({
       type: FETCH_IMAGECOIN_SUCCESS,
@@ -100,7 +95,7 @@ export const getDetailDataCoin = (coinId) => {
 export const getDetailImageCoin = (coinId) => {
   return async dispatch => {
     const response = await axios.get(
-      `http://localhost:3001/images/${coinId}`
+      `https://json-server-api-shopcoinusa.herokuapp.com/images/${coinId}`
     );
     dispatch({
       type: FETCH_DETAIL_IMAGECOIN_SUCCESS,
@@ -114,7 +109,7 @@ export const getDetailImageCoin = (coinId) => {
 export const getDeposits = () => {
   return async dispatch => {
     const response = await axios.get(
-      "http://localhost:3001/deposits"
+      "https://json-server-api-shopcoinusa.herokuapp.com/deposits"
     );
     dispatch({
       type: FETCH_DEPOSIT_SUCCESS,
@@ -126,7 +121,7 @@ export const getDeposits = () => {
 export const createDeposit = (newDeposit) =>{
   return async dispatch => {
     const response = await axios.post(
-      `http://localhost:3001/deposits/`, newDeposit
+      `https://json-server-api-shopcoinusa.herokuapp.com/deposits`, newDeposit
     );
     dispatch({
       type: FETCH_DEPOSIT_CREATE_SUCCESS,
@@ -138,7 +133,7 @@ export const createDeposit = (newDeposit) =>{
 export const getDetailDeposit = (depositId) => {
   return async dispatch => {
     const response = await axios.get(
-      `http://localhost:3001/deposits/${depositId}`
+      `https://json-server-api-shopcoinusa.herokuapp.com/deposits/${depositId}`
     );
     dispatch({
       type: FETCH_DEPOSIT_DETAIL_SUCCESS,
