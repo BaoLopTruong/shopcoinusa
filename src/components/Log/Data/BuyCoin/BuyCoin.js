@@ -37,7 +37,7 @@ export default function BuyCoin() {
                     <div className='col-md-6'>
                         You Dont have enough USDT
                         <Link to={'/login/profile/deposit/create'}><a className='btn-clickme' href='#a'> Click Here </a> </Link>
-                        Click Here To Make Deposit
+                        To Make Deposit
                     </div>
                 </div>
             </div>
