@@ -1,12 +1,15 @@
 
+.deposit-page{
+    padding-top: 20px;
+}
 
 
 .sp-status{
     padding: 5px;
     background-color: #3B82F6;
-    color: black;
     border: 1px solid black;
     border-radius: 5px;
+    color: white;
 }
 
 .btn-create-deposit{

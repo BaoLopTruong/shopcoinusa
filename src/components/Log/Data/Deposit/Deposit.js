@@ -11,7 +11,7 @@ export default function Deposit(){
             <div className='container'>
                 <div className='row'>
                 <div className='col-w-100 col-custom'>
-                        <h3 className='h3-deposit-detail'>DEPOSIT DETAIL</h3>
+                        <h3 className='h3-deposit-detail'>DEPOSIT</h3>
                     </div>
                 <div className='col-w-100'>
                 <Link to={'/login/profile/deposit/create'}>
