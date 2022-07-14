@@ -11,10 +11,9 @@ export default function Register() {
 
     // Password toggle handler
     const togglePassword = () => {
-        // When the handler is invoked
-        // inverse the boolean state of passwordShown
         setPasswordShown(!passwordShown);
     };
+
     const handleMouseDownPassword = (event) => {
         event.preventDefault();
     };
@@ -52,7 +51,6 @@ export default function Register() {
                             <div className='col-md-2'>
                             </div>
                             <div className='col-md-8'>
-                                {/* <input type='text' className='form-control' name='username' onChange={handleChange}></input> */}
                                 <input type='text' className='form-control' name='username' onChange={handleChange}></input>
                             </div>
                         </div>
@@ -73,7 +71,6 @@ export default function Register() {
                             <div className='col-md-2'>
                             </div>
                             <div className='col-md-8'>
-                                {/* <input type='email' className='form-control' name='email' onChange={handleChange}></input> */}
                                 <input type='email' className='form-control' name='email' onChange={handleChange}></input>
                             </div>
                         </div>
@@ -94,9 +91,7 @@ export default function Register() {
                             <div className='col-md-2'>
                             </div>
                             <div className='col-md-8'>
-                                {/* <input className='form-control input-password' type={passwordShown ? "text" : "password"}
-                                    name='password' onChange={handleChange} > </input> */}
-                                    <input className='form-control input-password' type={passwordShown ? "text" : "password"}
+                                <input className='form-control input-password' type={passwordShown ? "text" : "password"}
                                     name='password' onChange={handleChange} ></input>
                             </div>
                             <div className='col-md-2'>

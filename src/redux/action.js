@@ -26,18 +26,6 @@ export const CheckLogin = payload => {
         dispatch(getImageCoin());
       }
     })
-    
-    
-    // if (username === "admin" && password === "letmein") {
-    //   dispatch({
-    //     type: LOGIN_SUCCESS,
-    //     payload
-    //   });
-    //   dispatch(getDataCoin());
-    //   dispatch(getImageCoin());
-    // } else {
-    //   alert("login failure!");
-    // }
   };
 };
 
